@@ -1,0 +1,29 @@
+#formulario{
+    min-width: 400px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#formulario [required]{
+    border: 1px red solid;
+}
+
+#formulario fieldset{
+    background: lightgray;
+    padding: 1rem;
+}
+
+#formulario fieldset:hover{
+    background: grey;
+}
+
+fieldset:first-of-type, fieldset:last-of-type{
+    border-bottom: 5px solid  black;
+}
+
+form button{
+    background: black;
+    color: white;
+    border: none;
+}

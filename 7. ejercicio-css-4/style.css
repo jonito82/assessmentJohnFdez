@@ -1,0 +1,116 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+/* ICONOS FONTAWESOME*/
+
+i{
+    background: rgb(92, 91, 91);
+    color: white;
+    font-size: 30px;
+    padding: 8px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#iconos{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+#iconos i{
+    margin: 5px;
+}
+
+/* IMÁGENES DE PERFIL*/
+img{
+    border-radius: 50%;
+    width: 60%;
+}
+
+#team img{
+    margin: auto;
+    padding: 20px;
+}
+
+#team img {
+    transition: transform .3s; 
+}
+ 
+#team img:hover {
+    transform: scale(1.2); 
+}
+
+/*GENERAL*/
+html{
+    background: rgba(243, 174, 70, 0.767);
+    width: 80vw;
+}
+
+main > *,
+body > header {
+  padding: 2rem;
+}
+
+/* SECTION */
+main > section {
+  padding-bottom: 2rem;
+}
+
+#cabecera h1{
+    font-size: 6rem;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+
+#team ul{
+    list-style: none;
+    display: flex;
+    border: none;
+}
+
+#team ul li{
+    flex-basis: calc(100% / 3);
+    margin: 0 1.2rem;
+    font-size: .8rem;
+}
+
+#team ul li:first-of-type{
+    margin-top: 30px;
+}
+#team ul li:last-of-type{
+    margin-top: 30px;
+}
+
+#team header{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+#team h1{
+    margin: auto;
+    font-size: 1.2rem;
+}
+#team p{
+    background: rgb(79, 16, 180);
+    color: white;
+    padding: 10px;
+}
+
+#team ul li header{
+    box-shadow: 0px 0px 5px 1px black;
+}
+#team ul li section{
+    box-shadow: 0px 0px 5px 1px white;
+}
+

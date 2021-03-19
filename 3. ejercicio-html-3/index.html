@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Ejercicio HTML 3</title>
+</head>
+
+<body>
+<h1>FORMULARIO</h1>
+  <form action="" id="formulario">
+    <fieldset>
+      <legend>Datos Personales</legend>
+      <p>
+          <label for="name">Nombre</label>
+          <input type="text" name="name" id="name" autofocus="autofocus" placeholder="Nombre" required>
+      <label for="lastname">Apellidos</label>
+      <input type="text" name="lastname" id="lastname" placeholder="Apellidos" required>
+      </p> 
+      <p>
+        <label for="email">Correo electrónico</label>
+        <input type="email" name="email" id="email" placeholder="Correo electrónico" required>
+      </p> 
+      <p>
+        <label for="URL">Página WEB</label>
+        <input type="URL" name="URL" id="URL" placeholder="Escribe la URL de tu página web personal" size="40">
+      </p>
+      <label for="telefono">Teléfono</label>
+      <input type="tel" name="telefono" id="telefono" value="666 888 999" readonly>
+  </fieldset>
+  <fieldset>
+    <legend>Fecha y tiempo</legend>
+    <label for="fecha">Fecha</label>
+    <input type="date" name="fecha" id="fecha">
+    <label for="tiempo">Hora</label>
+    <input type="time" name="tiempo" id="tiempo">
+    <label for="datetime">Fecha y hora</label>
+    <input type="datetime" name="datetime" id="datetime" value="26/10/1985 09:00"> <!-- Le puse un valor por defecto, que sino quedaba muy triste -->
+    <p>
+    <label for="mes">Mes</label>
+    <input type="month" name="mes" id="mes">
+    <label for="semana">Semana</label>
+    <input type="week" name="semana" id="semana">
+    </p>
+  </fieldset>
+    <fieldset>
+      <legend>Otros</legend>
+    <label for="numero">Elige un número</label>
+    <input type="number" name="numero" id="numero" min="-10" max="10">
+    <label for="colorFavorito">Elige un color</label>
+    <input type="color" name="colorFavorito" id="colorFavorito">
+    <p>
+      <label for="buscar">Buscar</label>
+      <input type="search" name="buscar" id="buscar" disabled>
+    </p>
+    <button type="submit" formmethod="get">Enviar</button>    
+  </fieldset>
+
+  </form>
+</body>
+
+</html>

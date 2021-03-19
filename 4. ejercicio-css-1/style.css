@@ -1,0 +1,28 @@
+ul:first-of-type li:last-of-type{
+    background: rgb(6, 31, 216);
+}
+ul:first-of-type li:nth-child(odd){
+    text-decoration: underline greenyellow;
+}
+ul:first-of-type li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 10px;
+}
+ul:first-of-type li::after{
+        content: "$";
+        margin-right:8px;
+}
+li[lang]{
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+#provincias li{
+    color: blue;
+    list-style-type: lower-roman;
+}
+
+#provincias li:nth-child(2){
+    list-style: none;
+}

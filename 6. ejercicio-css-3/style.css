@@ -1,0 +1,106 @@
+*{
+    width: auto;
+    margin: auto;
+    padding: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* HEADER */
+#cabecera{
+    background: black;
+    color: white;
+    text-align: center;
+}
+#cabecera h1{
+    font-size: 3rem;
+}
+#cabecera h2{
+    font-size: 2rem;
+}
+
+/* BODY */
+main{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#cuerpo{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#cuerpo h1{
+    font-size: 2rem;
+}
+
+#divImagen{
+    display: flex;
+    justify-content: center;
+}
+
+#articuloPrincipal{
+    padding-top: 20px;
+}
+
+/* FORMULARIO */
+#articuloFormulario{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#articuloFormulario h1{
+    font-size: 2rem;
+}
+
+#formulario{
+    padding-top: 20px;
+    min-width: 500px;
+    box-sizing: border-box;
+}
+fieldset{
+    border-style: none;
+}
+input,textarea{
+    box-sizing: border-box;
+    background: rgb(89, 97, 114);
+    width: 100%;
+}
+
+label, button{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 7px;
+    font-size: .8rem;
+}
+
+button{
+    background: black;
+    color: white;
+    font-size: .5rem;
+    width: 12%;
+}
+
+/* Tamaño mayor a 600px */
+@media (min-width: 600px){
+    /* HEADER */
+    #cabecera{
+        background: black;
+        color: white;
+        text-align: left;
+    }
+    #divImagen{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+    float: right;
+    }
+    main{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
